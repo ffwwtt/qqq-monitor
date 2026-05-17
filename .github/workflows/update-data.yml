@@ -1,0 +1,97 @@
+name: 📊 Update Dashboard Data
+
+on:
+  schedule:
+    # 美东时间 9:30-16:00 (UTC 13:30-20:00) 每 15 分钟运行一次
+    # 盘前/盘后 也每 30 分钟更新一次以捕捉关键变化
+    - cron: '*/15 13-20 * * 1-5'   # 美股盘中
+    - cron: '0,30 12,21 * * 1-5'   # 盘前盘后
+    - cron: '0 22 * * 5'            # 周五收盘后总结
+  workflow_dispatch:  # 允许手动触发
+
+# 让 workflow 有权 push 数据回仓库
+permissions:
+  contents: write
+
+# 同一时间只跑一个，避免冲突
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  fetch-and-alert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: backend/requirements.txt
+
+      - name: 📦 Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r backend/requirements.txt
+
+      - name: 📡 Fetch market data
+        id: fetch
+        run: |
+          cd backend
+          python fetch_data.py "${{ secrets.FRED_API_KEY }}"
+          echo "fetched=true" >> "$GITHUB_OUTPUT"
+        continue-on-error: true
+
+      - name: 🔔 Check alerts and send notifications
+        if: steps.fetch.outputs.fetched == 'true'
+        env:
+          SMTP_HOST:           ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:           ${{ secrets.SMTP_PORT }}
+          SMTP_USER:           ${{ secrets.SMTP_USER }}
+          SMTP_PASS:           ${{ secrets.SMTP_PASS }}
+          ALERT_EMAIL:         ${{ secrets.ALERT_EMAIL }}
+          TELEGRAM_BOT_TOKEN:  ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:    ${{ secrets.TELEGRAM_CHAT_ID }}
+          WECOM_WEBHOOK_URL:   ${{ secrets.WECOM_WEBHOOK_URL }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          SLACK_WEBHOOK_URL:   ${{ secrets.SLACK_WEBHOOK_URL }}
+        run: |
+          cd backend
+          python check_alerts.py
+        continue-on-error: true
+
+      - name: 💾 Commit data updates
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            TS=$(date -u '+%Y-%m-%d %H:%M UTC')
+            git commit -m "data: dashboard update at $TS"
+            git push
+          fi
+
+      - name: 📊 Summary
+        if: always()
+        run: |
+          if [ -f data/dashboard.json ]; then
+            SCORE=$(python -c "import json; print(json.load(open('data/dashboard.json'))['scoring']['total_score'])")
+            REGIME=$(python -c "import json; print(json.load(open('data/dashboard.json'))['scoring']['regime'])")
+            echo "### 📊 Dashboard Updated" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "| Field | Value |" >> "$GITHUB_STEP_SUMMARY"
+            echo "|-------|-------|" >> "$GITHUB_STEP_SUMMARY"
+            echo "| Score | **$SCORE** |" >> "$GITHUB_STEP_SUMMARY"
+            echo "| Regime | $REGIME |" >> "$GITHUB_STEP_SUMMARY"
+            echo "| Run Time | $(date -u) |" >> "$GITHUB_STEP_SUMMARY"
+          fi

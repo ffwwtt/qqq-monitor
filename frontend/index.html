@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QQQ 预警看板</title>
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="QQQ Monitor">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Manrope:wght@300;400;500;700;800&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 顶部状态栏 -->
+  <header class="terminal-header">
+    <div class="header-left">
+      <div class="logo-mark">
+        <span class="logo-dot"></span>
+        <span class="logo-text">QQQ.MONITOR</span>
+      </div>
+      <div class="header-tag">v1.0 / MVP</div>
+    </div>
+    <div class="header-right">
+      <div class="live-indicator">
+        <span class="pulse-dot" id="liveDot"></span>
+        <span id="updateTime">--:--:--</span>
+      </div>
+      <button class="refresh-btn" onclick="loadData()" title="重新加载">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M3 12a9 9 0 0 1 15-6.7L21 8M21 3v5h-5"/>
+          <path d="M21 12a9 9 0 0 1-15 6.7L3 16M3 21v-5h5"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- 综合评分主面板 -->
+    <section class="hero-panel" id="heroPanel">
+      <div class="hero-left">
+        <div class="hero-label">综合评分 / OVERALL SCORE</div>
+        <div class="hero-score-row">
+          <div class="hero-score" id="overallScore">--</div>
+          <div class="hero-divider"></div>
+          <div class="hero-meta">
+            <div class="hero-regime" id="regimeLabel">--</div>
+            <div class="hero-position" id="positionText">--</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="score-bar-track">
+          <div class="score-marker" id="scoreMarker"></div>
+          <div class="score-labels">
+            <span>-12</span>
+            <span>0</span>
+            <span>+12</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4层信号 -->
+    <section class="section-title">
+      <h2>4 层信号体系</h2>
+      <p class="section-sub">每层对应不同时间维度的预警系统</p>
+    </section>
+
+    <section class="layers-grid" id="layersGrid">
+      <!-- JS 注入 -->
+    </section>
+
+    <!-- 核心指标 -->
+    <section class="section-title">
+      <h2>核心指标</h2>
+      <p class="section-sub">实时价格与衍生比率</p>
+    </section>
+
+    <section class="metrics-grid" id="metricsGrid">
+      <!-- JS 注入 -->
+    </section>
+
+    <!-- 图表 -->
+    <section class="section-title">
+      <h2>历史走势</h2>
+      <p class="section-sub">QQQ vs VIX · 过去 120 个交易日</p>
+    </section>
+
+    <section class="charts-row">
+      <div class="chart-card">
+        <div class="chart-header">
+          <span class="chart-title">QQQ 价格 vs 均线</span>
+          <span class="chart-tag" id="qqqLatest">$--</span>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="qqqChart" role="img" aria-label="QQQ 历史价格走势图"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-header">
+          <span class="chart-title">VIX 恐慌指数</span>
+          <span class="chart-tag" id="vixLatest">--</span>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="vixChart" role="img" aria-label="VIX 历史走势图"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- 关键比率 -->
+    <section class="section-title">
+      <h2>关键比率</h2>
+      <p class="section-sub">市场内部相对强度</p>
+    </section>
+
+    <section class="ratios-grid" id="ratiosGrid">
+      <!-- JS 注入 -->
+    </section>
+
+    <!-- 宏观 -->
+    <section class="section-title" id="fredSection" style="display:none;">
+      <h2>宏观经济</h2>
+      <p class="section-sub">来自 FRED 美联储经济数据库</p>
+    </section>
+    <section class="fred-grid" id="fredGrid"></section>
+
+    <!-- 错误提示 -->
+    <div id="errorBox" class="error-box" style="display:none;"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <span>数据源</span>
+      <span class="footer-tag">Yahoo Finance</span>
+      <span class="footer-tag">FRED</span>
+    </div>
+    <div class="footer-right">
+      <span id="mockBadge" class="mock-badge" style="display:none;">DEMO DATA</span>
+      <span>非投资建议 · 仅供研究参考</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
