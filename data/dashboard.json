@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-16T21:20:11.408947+00:00",
+  "timestamp": "2026-06-16T22:51:22.275136+00:00",
   "data": {
     "QQQ": {
       "price": 729.86,
@@ -159,16 +159,16 @@
     },
     "JNK": {
       "price": 96.43,
-      "change_pct": 0.13,
-      "sma20": 96.15,
-      "sma50": 96.36,
-      "sma200": 96.92,
+      "change_pct": -0.02,
+      "sma20": 96.19,
+      "sma50": 96.37,
+      "sma200": 96.91,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -0.51,
-      "rsi14": 47.7
+      "dist_sma200_pct": -0.5,
+      "rsi14": 48.4
     },
     "TLT": {
       "price": 86.19,
