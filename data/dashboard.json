@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-19T14:53:04.136355+00:00",
+  "timestamp": "2026-06-19T16:00:15.637563+00:00",
   "data": {
     "QQQ": {
       "price": 740.62,
@@ -54,8 +54,8 @@
       "rsi14": 50.9
     },
     "VIX": {
-      "price": 16.83,
-      "change_pct": 2.62,
+      "price": 16.78,
+      "change_pct": 2.32,
       "sma20": 17.41,
       "sma50": 17.74,
       "sma200": 18.57,
@@ -63,8 +63,8 @@
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -9.36,
-      "rsi14": 51.6
+      "dist_sma200_pct": -9.63,
+      "rsi14": 51.5
     },
     "VIX3M": {
       "price": 20.51,
@@ -223,8 +223,8 @@
       "rsi14": 37.4
     },
     "DXY": {
-      "price": 100.8,
-      "change_pct": -0.05,
+      "price": 100.81,
+      "change_pct": -0.04,
       "sma20": 99.67,
       "sma50": 98.96,
       "sma200": 98.7,
@@ -232,8 +232,8 @@
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 2.13,
-      "rsi14": 76.0
+      "dist_sma200_pct": 2.14,
+      "rsi14": 76.2
     },
     "GLD": {
       "price": 387.12,
@@ -250,7 +250,7 @@
     }
   },
   "ratios": {
-    "VIX_VIX3M": 0.821,
+    "VIX_VIX3M": 0.818,
     "VIX_in_backwardation": false,
     "HYG_IEF": 0.8479,
     "JNK_TLT": 1.1111,
@@ -278,7 +278,7 @@
         "name": "波动率-情绪",
         "details": [
           "✅ VIX 16.8 正常 (+1)",
-          "✅ VIX/VIX3M 0.821 contango (+1)",
+          "✅ VIX/VIX3M 0.818 contango (+1)",
           "✅ MOVE 69 平静 (+1)"
         ],
         "max": 5
@@ -1726,7 +1726,7 @@
       },
       {
         "date": "2026-06-19",
-        "close": 16.83,
+        "close": 16.78,
         "sma50": 17.74,
         "sma200": null
       }
