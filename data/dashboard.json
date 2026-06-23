@@ -1,122 +1,122 @@
 {
-  "timestamp": "2026-06-22T22:43:59.721238+00:00",
+  "timestamp": "2026-06-23T14:37:22.257271+00:00",
   "data": {
     "QQQ": {
-      "price": 737.95,
-      "change_pct": -0.36,
-      "sma20": 728.05,
-      "sma50": 695.74,
-      "sma200": 629.47,
+      "price": 721.86,
+      "change_pct": -2.18,
+      "sma20": 728.26,
+      "sma50": 697.95,
+      "sma200": 630.2,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 17.23,
-      "rsi14": 48.6
+      "dist_sma200_pct": 14.54,
+      "rsi14": 43.4
     },
     "SPY": {
-      "price": 744.39,
-      "change_pct": -0.31,
-      "sma20": 747.16,
-      "sma50": 730.95,
-      "sma200": 688.86,
+      "price": 738.51,
+      "change_pct": -0.79,
+      "sma20": 746.8,
+      "sma50": 732.13,
+      "sma200": 689.31,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 8.06,
-      "rsi14": 42.6
+      "dist_sma200_pct": 7.14,
+      "rsi14": 39.5
     },
     "RSP": {
-      "price": 209.61,
-      "change_pct": -0.17,
-      "sma20": 209.21,
-      "sma50": 205.03,
-      "sma200": 196.21,
+      "price": 209.19,
+      "change_pct": -0.2,
+      "sma20": 209.35,
+      "sma50": 205.29,
+      "sma200": 196.31,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 6.83,
-      "rsi14": 50.9
+      "dist_sma200_pct": 6.56,
+      "rsi14": 48.1
     },
     "QQEW": {
-      "price": 156.38,
-      "change_pct": -0.28,
-      "sma20": 154.79,
-      "sma50": 145.72,
-      "sma200": 140.28,
+      "price": 153.71,
+      "change_pct": -1.71,
+      "sma20": 154.95,
+      "sma50": 146.24,
+      "sma200": 140.37,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 11.47,
-      "rsi14": 41.3
+      "dist_sma200_pct": 9.5,
+      "rsi14": 39.4
     },
     "VIX": {
-      "price": 17.28,
-      "change_pct": 5.37,
-      "sma20": 17.43,
+      "price": 19.13,
+      "change_pct": 10.71,
+      "sma20": 17.56,
       "sma50": 17.75,
-      "sma200": 18.57,
+      "sma200": 18.59,
       "sma200_slope_up": true,
-      "above_sma200": false,
-      "above_sma50": false,
+      "above_sma200": true,
+      "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -6.94,
-      "rsi14": 52.5
+      "dist_sma200_pct": 2.91,
+      "rsi14": 56.5
     },
     "VIX3M": {
-      "price": 19.76,
-      "change_pct": 0.97,
-      "sma20": 20.13,
-      "sma50": 20.6,
-      "sma200": 20.87,
-      "sma200_slope_up": true,
-      "above_sma200": false,
-      "above_sma50": false,
-      "golden_cross": false,
-      "dist_sma200_pct": -5.33,
-      "rsi14": 51.3
-    },
-    "VIX9D": {
-      "price": 16.29,
-      "change_pct": 16.94,
-      "sma20": 16.52,
-      "sma50": 16.26,
-      "sma200": 17.06,
+      "price": 20.85,
+      "change_pct": 6.54,
+      "sma20": 20.19,
+      "sma50": 20.62,
+      "sma200": 20.88,
       "sma200_slope_up": true,
       "above_sma200": false,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -4.5,
-      "rsi14": 52.9
+      "dist_sma200_pct": -0.13,
+      "rsi14": 55.2
+    },
+    "VIX9D": {
+      "price": 19.19,
+      "change_pct": 37.76,
+      "sma20": 16.66,
+      "sma50": 16.32,
+      "sma200": 17.07,
+      "sma200_slope_up": true,
+      "above_sma200": true,
+      "above_sma50": true,
+      "golden_cross": false,
+      "dist_sma200_pct": 12.41,
+      "rsi14": 55.9
     },
     "VVIX": {
-      "price": 91.72,
-      "change_pct": 3.72,
-      "sma20": 92.04,
-      "sma50": 94.68,
-      "sma200": 102.01,
+      "price": 98.87,
+      "change_pct": 7.8,
+      "sma20": 92.43,
+      "sma50": 94.51,
+      "sma200": 102.02,
       "sma200_slope_up": false,
       "above_sma200": false,
-      "above_sma50": false,
+      "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -10.08,
-      "rsi14": 50.1
+      "dist_sma200_pct": -3.09,
+      "rsi14": 54.6
     },
     "MOVE": {
-      "price": 70.01,
-      "change_pct": 7.07,
-      "sma20": 72.02,
-      "sma50": 72.35,
-      "sma200": 72.96,
+      "price": 65.39,
+      "change_pct": -7.46,
+      "sma20": 72.51,
+      "sma50": 72.43,
+      "sma200": 73.01,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -4.04,
-      "rsi14": 44.8
+      "dist_sma200_pct": -10.44,
+      "rsi14": 42.0
     },
     "SKEW": {
       "price": 141.85,
@@ -132,130 +132,130 @@
       "rsi14": 49.3
     },
     "MAGS": {
-      "price": 64.02,
-      "change_pct": -2.17,
-      "sma20": 67.36,
-      "sma50": 67.23,
-      "sma200": 64.85,
+      "price": 63.96,
+      "change_pct": -0.09,
+      "sma20": 67.09,
+      "sma50": 67.29,
+      "sma200": 64.87,
       "sma200_slope_up": true,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": true,
-      "dist_sma200_pct": -1.29,
-      "rsi14": 29.0
+      "dist_sma200_pct": -1.4,
+      "rsi14": 30.3
     },
     "HYG": {
-      "price": 79.94,
-      "change_pct": -0.09,
+      "price": 79.92,
+      "change_pct": -0.02,
       "sma20": 79.89,
-      "sma50": 80.03,
-      "sma200": 80.43,
-      "sma200_slope_up": false,
-      "above_sma200": false,
-      "above_sma50": false,
-      "golden_cross": false,
-      "dist_sma200_pct": -0.6,
-      "rsi14": 52.1
-    },
-    "JNK": {
-      "price": 96.3,
-      "change_pct": -0.09,
-      "sma20": 96.23,
-      "sma50": 96.37,
-      "sma200": 96.9,
+      "sma50": 80.02,
+      "sma200": 80.42,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
       "dist_sma200_pct": -0.62,
-      "rsi14": 52.4
+      "rsi14": 50.5
+    },
+    "JNK": {
+      "price": 96.31,
+      "change_pct": 0.01,
+      "sma20": 96.23,
+      "sma50": 96.37,
+      "sma200": 96.89,
+      "sma200_slope_up": false,
+      "above_sma200": false,
+      "above_sma50": false,
+      "golden_cross": false,
+      "dist_sma200_pct": -0.6,
+      "rsi14": 51.9
     },
     "TLT": {
-      "price": 86.09,
-      "change_pct": -0.76,
-      "sma20": 85.55,
+      "price": 86.26,
+      "change_pct": 0.2,
+      "sma20": 85.63,
       "sma50": 85.63,
       "sma200": 87.92,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -2.08,
-      "rsi14": 55.8
+      "dist_sma200_pct": -1.88,
+      "rsi14": 55.7
     },
     "IEF": {
-      "price": 94.0,
-      "change_pct": -0.38,
-      "sma20": 94.13,
-      "sma50": 94.55,
-      "sma200": 95.99,
+      "price": 94.19,
+      "change_pct": 0.21,
+      "sma20": 94.14,
+      "sma50": 94.53,
+      "sma200": 95.98,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -2.07,
-      "rsi14": 47.7
+      "dist_sma200_pct": -1.86,
+      "rsi14": 49.4
     },
     "LQD": {
-      "price": 108.78,
-      "change_pct": -0.27,
-      "sma20": 108.78,
+      "price": 108.99,
+      "change_pct": 0.19,
+      "sma20": 108.81,
       "sma50": 108.89,
       "sma200": 110.3,
       "sma200_slope_up": false,
       "above_sma200": false,
-      "above_sma50": false,
+      "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -1.38,
-      "rsi14": 48.1
+      "dist_sma200_pct": -1.19,
+      "rsi14": 50.8
     },
     "SHY": {
-      "price": 81.91,
-      "change_pct": -0.1,
-      "sma20": 82.05,
+      "price": 81.99,
+      "change_pct": 0.09,
+      "sma20": 82.04,
       "sma50": 82.22,
-      "sma200": 82.68,
+      "sma200": 82.67,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -0.93,
-      "rsi14": 45.1
+      "dist_sma200_pct": -0.83,
+      "rsi14": 48.9
     },
     "DXY": {
-      "price": 101.0,
-      "change_pct": 0.14,
-      "sma20": 99.68,
-      "sma50": 98.97,
-      "sma200": 98.7,
+      "price": 101.36,
+      "change_pct": 0.33,
+      "sma20": 99.79,
+      "sma50": 99.02,
+      "sma200": 98.71,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 2.33,
-      "rsi14": 78.3
+      "dist_sma200_pct": 2.68,
+      "rsi14": 80.4
     },
     "GLD": {
-      "price": 384.59,
-      "change_pct": -0.65,
-      "sma20": 399.74,
-      "sma50": 417.25,
-      "sma200": 408.39,
+      "price": 378.69,
+      "change_pct": -1.53,
+      "sma20": 397.98,
+      "sma50": 416.08,
+      "sma200": 408.65,
       "sma200_slope_up": true,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": true,
-      "dist_sma200_pct": -5.83,
-      "rsi14": 33.9
+      "dist_sma200_pct": -7.33,
+      "rsi14": 31.1
     }
   },
   "ratios": {
-    "VIX_VIX3M": 0.874,
+    "VIX_VIX3M": 0.918,
     "VIX_in_backwardation": false,
-    "HYG_IEF": 0.8504,
-    "JNK_TLT": 1.1186,
-    "QQQ_QQEW": 4.719,
-    "MAGS_RSP": 0.3054
+    "HYG_IEF": 0.8485,
+    "JNK_TLT": 1.1165,
+    "QQQ_QQEW": 4.6962,
+    "MAGS_RSP": 0.3058
   },
   "scoring": {
     "total_score": 6,
@@ -276,9 +276,9 @@
         "score": 3,
         "name": "波动率-情绪",
         "details": [
-          "✅ VIX 17.3 正常 (+1)",
-          "✅ VIX/VIX3M 0.874 contango (+1)",
-          "✅ MOVE 70 平静 (+1)"
+          "✅ VIX 19.1 正常 (+1)",
+          "✅ VIX/VIX3M 0.918 contango (+1)",
+          "✅ MOVE 65 平静 (+1)"
         ],
         "max": 5
       },
@@ -286,7 +286,7 @@
         "score": 2,
         "name": "内部结构",
         "details": [
-          "💡 QQQ/QQEW = 4.719",
+          "💡 QQQ/QQEW = 4.696",
           "✅ SPY+RSP 均在 200SMA 上方 (+1)",
           "✅ Nasdaq 内部宽度健康 (+1)"
         ],
@@ -306,733 +306,727 @@
   "history": {
     "QQQ": [
       {
-        "date": "2025-12-29",
-        "close": 620.09,
-        "sma50": null,
-        "sma200": null
-      },
-      {
         "date": "2025-12-30",
-        "close": 618.65,
+        "close": 617.97,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2025-12-31",
-        "close": 613.54,
+        "close": 612.86,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-02",
-        "close": 612.35,
+        "close": 611.68,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-05",
-        "close": 617.21,
+        "close": 616.53,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-06",
-        "close": 622.63,
+        "close": 621.95,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-07",
-        "close": 623.23,
+        "close": 622.55,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-08",
-        "close": 619.69,
+        "close": 619.01,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-09",
-        "close": 625.86,
+        "close": 625.17,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-12",
-        "close": 626.38,
+        "close": 625.69,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-13",
-        "close": 625.45,
+        "close": 624.76,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-14",
-        "close": 618.77,
+        "close": 618.09,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-15",
-        "close": 621.0,
+        "close": 620.32,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-16",
-        "close": 620.48,
+        "close": 619.8,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-20",
-        "close": 607.29,
+        "close": 606.63,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-21",
-        "close": 615.5,
+        "close": 614.83,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-22",
-        "close": 619.98,
+        "close": 619.3,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-23",
-        "close": 621.94,
+        "close": 621.25,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-26",
-        "close": 624.67,
+        "close": 623.99,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-27",
-        "close": 630.34,
+        "close": 629.64,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-28",
-        "close": 632.42,
+        "close": 631.73,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-29",
-        "close": 628.64,
+        "close": 627.95,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-01-30",
-        "close": 621.09,
+        "close": 620.41,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-02",
-        "close": 625.35,
+        "close": 624.67,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-03",
-        "close": 615.74,
+        "close": 615.07,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-04",
-        "close": 604.99,
+        "close": 604.32,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-05",
-        "close": 596.28,
+        "close": 595.62,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-06",
-        "close": 608.88,
+        "close": 608.21,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-09",
-        "close": 613.55,
+        "close": 612.87,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-10",
-        "close": 610.7,
+        "close": 610.03,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-11",
-        "close": 612.34,
+        "close": 611.67,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-12",
-        "close": 599.88,
+        "close": 599.23,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-13",
-        "close": 601.16,
+        "close": 600.5,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-17",
-        "close": 600.54,
+        "close": 599.88,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-18",
-        "close": 605.03,
+        "close": 604.36,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-19",
-        "close": 602.71,
+        "close": 602.05,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-20",
-        "close": 608.04,
+        "close": 607.38,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-23",
-        "close": 600.65,
+        "close": 599.99,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-24",
-        "close": 607.1,
+        "close": 606.44,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-25",
-        "close": 615.9,
+        "close": 615.23,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-26",
-        "close": 608.47,
+        "close": 607.8,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-02-27",
-        "close": 606.53,
+        "close": 605.86,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-03-02",
-        "close": 607.32,
+        "close": 606.66,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-03-03",
-        "close": 600.82,
+        "close": 600.16,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-03-04",
-        "close": 609.98,
+        "close": 609.31,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-03-05",
-        "close": 608.14,
+        "close": 607.48,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-03-06",
-        "close": 598.99,
+        "close": 598.34,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-03-09",
-        "close": 606.99,
+        "close": 606.33,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-03-10",
-        "close": 607.0,
+        "close": 606.34,
         "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-03-11",
-        "close": 606.92,
-        "sma50": 613.54,
+        "close": 606.26,
+        "sma50": null,
         "sma200": null
       },
       {
         "date": "2026-03-12",
-        "close": 596.51,
-        "sma50": 613.07,
+        "close": 595.85,
+        "sma50": 612.4,
         "sma200": null
       },
       {
         "date": "2026-03-13",
-        "close": 592.97,
-        "sma50": 612.56,
+        "close": 592.32,
+        "sma50": 611.89,
         "sma200": null
       },
       {
         "date": "2026-03-16",
-        "close": 599.62,
-        "sma50": 612.28,
+        "close": 598.97,
+        "sma50": 611.61,
         "sma200": null
       },
       {
         "date": "2026-03-17",
-        "close": 602.55,
-        "sma50": 612.09,
+        "close": 601.89,
+        "sma50": 611.41,
         "sma200": null
       },
       {
         "date": "2026-03-18",
-        "close": 594.15,
-        "sma50": 611.62,
+        "close": 593.5,
+        "sma50": 610.95,
         "sma200": null
       },
       {
         "date": "2026-03-19",
-        "close": 592.27,
-        "sma50": 611.02,
+        "close": 591.62,
+        "sma50": 610.35,
         "sma200": null
       },
       {
         "date": "2026-03-20",
-        "close": 581.33,
-        "sma50": 610.18,
+        "close": 580.69,
+        "sma50": 609.51,
         "sma200": null
       },
       {
         "date": "2026-03-23",
-        "close": 588.0,
-        "sma50": 609.55,
+        "close": 587.35,
+        "sma50": 608.88,
         "sma200": null
       },
       {
         "date": "2026-03-24",
-        "close": 583.98,
-        "sma50": 608.71,
+        "close": 583.34,
+        "sma50": 608.04,
         "sma200": null
       },
       {
         "date": "2026-03-25",
-        "close": 587.82,
-        "sma50": 607.94,
+        "close": 587.17,
+        "sma50": 607.27,
         "sma200": null
       },
       {
         "date": "2026-03-26",
-        "close": 573.79,
-        "sma50": 606.9,
+        "close": 573.16,
+        "sma50": 606.24,
         "sma200": null
       },
       {
         "date": "2026-03-27",
-        "close": 562.58,
-        "sma50": 605.78,
+        "close": 561.96,
+        "sma50": 605.11,
         "sma200": null
       },
       {
         "date": "2026-03-30",
-        "close": 558.28,
-        "sma50": 604.52,
+        "close": 557.67,
+        "sma50": 603.86,
         "sma200": null
       },
       {
         "date": "2026-03-31",
-        "close": 577.18,
-        "sma50": 603.66,
+        "close": 576.55,
+        "sma50": 603.0,
         "sma200": null
       },
       {
         "date": "2026-04-01",
-        "close": 584.31,
-        "sma50": 603.2,
+        "close": 583.67,
+        "sma50": 602.54,
         "sma200": null
       },
       {
         "date": "2026-04-02",
-        "close": 584.98,
-        "sma50": 602.59,
+        "close": 584.34,
+        "sma50": 601.93,
         "sma200": null
       },
       {
         "date": "2026-04-06",
-        "close": 588.5,
-        "sma50": 601.96,
+        "close": 587.85,
+        "sma50": 601.3,
         "sma200": null
       },
       {
         "date": "2026-04-07",
-        "close": 588.59,
-        "sma50": 601.29,
+        "close": 587.94,
+        "sma50": 600.63,
         "sma200": null
       },
       {
         "date": "2026-04-08",
-        "close": 606.09,
-        "sma50": 600.92,
-        "sma200": null
-      },
-      {
-        "date": "2026-04-09",
-        "close": 610.19,
-        "sma50": 600.52,
-        "sma200": null
-      },
-      {
-        "date": "2026-04-10",
-        "close": 611.07,
-        "sma50": 600.09,
-        "sma200": null
-      },
-      {
-        "date": "2026-04-13",
-        "close": 617.39,
-        "sma50": 599.87,
-        "sma200": null
-      },
-      {
-        "date": "2026-04-14",
-        "close": 628.6,
-        "sma50": 600.02,
-        "sma200": null
-      },
-      {
-        "date": "2026-04-15",
-        "close": 637.4,
+        "close": 605.42,
         "sma50": 600.26,
         "sma200": null
       },
       {
+        "date": "2026-04-09",
+        "close": 609.52,
+        "sma50": 599.86,
+        "sma200": null
+      },
+      {
+        "date": "2026-04-10",
+        "close": 610.4,
+        "sma50": 599.43,
+        "sma200": null
+      },
+      {
+        "date": "2026-04-13",
+        "close": 616.71,
+        "sma50": 599.21,
+        "sma200": null
+      },
+      {
+        "date": "2026-04-14",
+        "close": 627.91,
+        "sma50": 599.36,
+        "sma200": null
+      },
+      {
+        "date": "2026-04-15",
+        "close": 636.7,
+        "sma50": 599.6,
+        "sma200": null
+      },
+      {
         "date": "2026-04-16",
-        "close": 640.47,
-        "sma50": 600.75,
+        "close": 639.77,
+        "sma50": 600.09,
         "sma200": null
       },
       {
         "date": "2026-04-17",
-        "close": 648.85,
-        "sma50": 601.63,
+        "close": 648.14,
+        "sma50": 600.97,
         "sma200": null
       },
       {
         "date": "2026-04-20",
-        "close": 646.79,
-        "sma50": 602.64,
+        "close": 646.08,
+        "sma50": 601.98,
         "sma200": null
       },
       {
         "date": "2026-04-21",
-        "close": 644.33,
-        "sma50": 603.35,
+        "close": 643.62,
+        "sma50": 602.69,
         "sma200": null
       },
       {
         "date": "2026-04-22",
-        "close": 655.11,
-        "sma50": 604.18,
+        "close": 654.39,
+        "sma50": 603.52,
         "sma200": null
       },
       {
         "date": "2026-04-23",
-        "close": 651.42,
-        "sma50": 604.99,
+        "close": 650.7,
+        "sma50": 604.33,
         "sma200": null
       },
       {
         "date": "2026-04-24",
-        "close": 663.88,
-        "sma50": 606.02,
+        "close": 663.15,
+        "sma50": 605.36,
         "sma200": null
       },
       {
         "date": "2026-04-27",
-        "close": 664.23,
-        "sma50": 607.31,
+        "close": 663.5,
+        "sma50": 606.64,
         "sma200": null
       },
       {
         "date": "2026-04-28",
-        "close": 657.55,
-        "sma50": 608.44,
+        "close": 656.83,
+        "sma50": 607.77,
         "sma200": null
       },
       {
         "date": "2026-04-29",
-        "close": 661.57,
-        "sma50": 609.66,
+        "close": 660.84,
+        "sma50": 608.99,
         "sma200": null
       },
       {
         "date": "2026-04-30",
-        "close": 667.74,
-        "sma50": 610.91,
+        "close": 667.01,
+        "sma50": 610.24,
         "sma200": null
       },
       {
         "date": "2026-05-01",
-        "close": 674.15,
-        "sma50": 612.34,
+        "close": 673.41,
+        "sma50": 611.67,
         "sma200": null
       },
       {
         "date": "2026-05-04",
-        "close": 672.88,
-        "sma50": 613.64,
+        "close": 672.14,
+        "sma50": 612.97,
         "sma200": null
       },
       {
         "date": "2026-05-05",
-        "close": 681.61,
-        "sma50": 615.26,
+        "close": 680.86,
+        "sma50": 614.58,
         "sma200": null
       },
       {
         "date": "2026-05-06",
-        "close": 695.77,
-        "sma50": 617.03,
+        "close": 695.01,
+        "sma50": 616.35,
         "sma200": null
       },
       {
         "date": "2026-05-07",
-        "close": 694.94,
-        "sma50": 618.61,
+        "close": 694.18,
+        "sma50": 617.93,
         "sma200": null
       },
       {
         "date": "2026-05-08",
-        "close": 711.23,
-        "sma50": 620.67,
+        "close": 710.45,
+        "sma50": 619.99,
         "sma200": null
       },
       {
         "date": "2026-05-11",
-        "close": 713.29,
-        "sma50": 622.8,
+        "close": 712.51,
+        "sma50": 622.12,
         "sma200": null
       },
       {
         "date": "2026-05-12",
-        "close": 707.24,
-        "sma50": 624.8,
+        "close": 706.46,
+        "sma50": 624.12,
         "sma200": null
       },
       {
         "date": "2026-05-13",
-        "close": 714.71,
-        "sma50": 627.08,
+        "close": 713.93,
+        "sma50": 626.39,
         "sma200": null
       },
       {
         "date": "2026-05-14",
-        "close": 719.79,
-        "sma50": 629.28,
+        "close": 719.0,
+        "sma50": 628.58,
         "sma200": null
       },
       {
         "date": "2026-05-15",
-        "close": 708.93,
-        "sma50": 631.29,
+        "close": 708.15,
+        "sma50": 630.6,
         "sma200": null
       },
       {
         "date": "2026-05-18",
-        "close": 705.88,
-        "sma50": 633.43,
+        "close": 705.11,
+        "sma50": 632.73,
         "sma200": null
       },
       {
         "date": "2026-05-19",
-        "close": 701.53,
-        "sma50": 635.32,
+        "close": 700.76,
+        "sma50": 634.62,
         "sma200": null
       },
       {
         "date": "2026-05-20",
-        "close": 713.15,
-        "sma50": 637.44,
+        "close": 712.37,
+        "sma50": 636.74,
         "sma200": null
       },
       {
         "date": "2026-05-21",
-        "close": 714.51,
-        "sma50": 639.59,
+        "close": 713.73,
+        "sma50": 638.89,
         "sma200": null
       },
       {
         "date": "2026-05-22",
-        "close": 717.54,
-        "sma50": 642.01,
+        "close": 716.75,
+        "sma50": 641.31,
         "sma200": null
       },
       {
         "date": "2026-05-26",
-        "close": 730.28,
-        "sma50": 644.76,
+        "close": 729.48,
+        "sma50": 644.05,
         "sma200": null
       },
       {
         "date": "2026-05-27",
-        "close": 729.45,
-        "sma50": 647.36,
+        "close": 728.65,
+        "sma50": 646.65,
         "sma200": null
       },
       {
         "date": "2026-05-28",
-        "close": 735.6,
-        "sma50": 650.02,
+        "close": 734.79,
+        "sma50": 649.3,
         "sma200": null
       },
       {
         "date": "2026-05-29",
-        "close": 738.31,
-        "sma50": 652.9,
+        "close": 737.5,
+        "sma50": 652.18,
         "sma200": null
       },
       {
         "date": "2026-06-01",
-        "close": 742.74,
-        "sma50": 655.91,
+        "close": 741.92,
+        "sma50": 655.19,
         "sma200": null
       },
       {
         "date": "2026-06-02",
-        "close": 746.16,
-        "sma50": 659.21,
+        "close": 745.34,
+        "sma50": 658.48,
         "sma200": null
       },
       {
         "date": "2026-06-03",
-        "close": 744.21,
-        "sma50": 662.33,
+        "close": 743.39,
+        "sma50": 661.6,
         "sma200": null
       },
       {
         "date": "2026-06-04",
-        "close": 740.61,
-        "sma50": 665.46,
+        "close": 739.8,
+        "sma50": 664.73,
         "sma200": null
       },
       {
         "date": "2026-06-05",
-        "close": 705.06,
-        "sma50": 667.81,
+        "close": 704.29,
+        "sma50": 667.08,
         "sma200": null
       },
       {
         "date": "2026-06-08",
-        "close": 716.07,
-        "sma50": 670.65,
+        "close": 715.28,
+        "sma50": 669.92,
         "sma200": null
       },
       {
         "date": "2026-06-09",
-        "close": 707.83,
-        "sma50": 673.56,
+        "close": 707.05,
+        "sma50": 672.82,
         "sma200": null
       },
       {
         "date": "2026-06-10",
-        "close": 693.69,
-        "sma50": 676.27,
+        "close": 692.93,
+        "sma50": 675.53,
         "sma200": null
       },
       {
         "date": "2026-06-11",
-        "close": 717.12,
-        "sma50": 679.07,
+        "close": 716.33,
+        "sma50": 678.32,
         "sma200": null
       },
       {
         "date": "2026-06-12",
-        "close": 721.34,
-        "sma50": 681.81,
+        "close": 720.55,
+        "sma50": 681.06,
         "sma200": null
       },
       {
         "date": "2026-06-15",
-        "close": 744.0,
-        "sma50": 684.99,
+        "close": 743.18,
+        "sma50": 684.24,
         "sma200": null
       },
       {
         "date": "2026-06-16",
-        "close": 729.86,
-        "sma50": 687.82,
+        "close": 729.06,
+        "sma50": 687.06,
         "sma200": null
       },
       {
         "date": "2026-06-17",
-        "close": 722.51,
-        "sma50": 690.49,
+        "close": 721.72,
+        "sma50": 689.74,
         "sma200": null
       },
       {
         "date": "2026-06-18",
-        "close": 740.62,
-        "sma50": 693.18,
+        "close": 739.81,
+        "sma50": 692.42,
         "sma200": null
       },
       {
         "date": "2026-06-22",
         "close": 737.95,
-        "sma50": 695.74,
+        "sma50": 694.99,
+        "sma200": null
+      },
+      {
+        "date": "2026-06-23",
+        "close": 722.07,
+        "sma50": 697.23,
         "sma200": null
       }
     ],
     "VIX": [
-      {
-        "date": "2026-01-06",
-        "close": 14.75,
-        "sma50": null,
-        "sma200": null
-      },
       {
         "date": "2026-01-07",
         "close": 15.38,
@@ -1324,7 +1318,7 @@
       {
         "date": "2026-03-18",
         "close": 25.09,
-        "sma50": 19.53,
+        "sma50": null,
         "sma200": null
       },
       {
@@ -1720,6 +1714,12 @@
       {
         "date": "2026-06-22",
         "close": 17.28,
+        "sma50": 17.75,
+        "sma200": null
+      },
+      {
+        "date": "2026-06-23",
+        "close": 19.13,
         "sma50": 17.75,
         "sma200": null
       }
