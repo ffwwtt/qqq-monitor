@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-29T20:31:40.145710+00:00",
+  "timestamp": "2026-06-29T22:00:05.082058+00:00",
   "data": {
     "QQQ": {
       "price": 724.08,
@@ -106,30 +106,30 @@
       "rsi14": 47.4
     },
     "MOVE": {
-      "price": 66.79,
-      "change_pct": -0.0,
-      "sma20": 70.74,
-      "sma50": 72.03,
-      "sma200": 72.49,
+      "price": 68.14,
+      "change_pct": 2.02,
+      "sma20": 70.8,
+      "sma50": 72.05,
+      "sma200": 72.5,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -7.87,
-      "rsi14": 31.1
+      "dist_sma200_pct": -6.01,
+      "rsi14": 34.4
     },
     "SKEW": {
-      "price": 139.4,
-      "change_pct": -0.35,
-      "sma20": 143.13,
-      "sma50": 140.92,
-      "sma200": 145.06,
+      "price": 144.46,
+      "change_pct": 3.63,
+      "sma20": 143.15,
+      "sma50": 141.0,
+      "sma200": 145.02,
       "sma200_slope_up": false,
       "above_sma200": false,
-      "above_sma50": false,
+      "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -3.9,
-      "rsi14": 30.9
+      "dist_sma200_pct": -0.39,
+      "rsi14": 49.1
     },
     "MAGS": {
       "price": 63.52,
@@ -223,8 +223,8 @@
       "rsi14": 63.4
     },
     "DXY": {
-      "price": 101.09,
-      "change_pct": -0.26,
+      "price": 101.1,
+      "change_pct": -0.25,
       "sma20": 100.25,
       "sma50": 99.28,
       "sma200": 98.79,
@@ -233,7 +233,7 @@
       "above_sma50": true,
       "golden_cross": true,
       "dist_sma200_pct": 2.34,
-      "rsi14": 66.4
+      "rsi14": 66.6
     },
     "GLD": {
       "price": 368.58,
@@ -279,7 +279,7 @@
         "details": [
           "✅ VIX 17.6 正常 (+1)",
           "✅ VIX/VIX3M 0.904 contango (+1)",
-          "✅ MOVE 67 平静 (+1)"
+          "✅ MOVE 68 平静 (+1)"
         ],
         "max": 5
       },
