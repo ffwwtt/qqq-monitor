@@ -1,19 +1,6 @@
 {
-  "timestamp": "2026-07-06T21:55:09.664890+00:00",
+  "timestamp": "2026-07-06T22:09:33.578220+00:00",
   "data": {
-    "QQQ": {
-      "price": 722.82,
-      "change_pct": 1.43,
-      "sma20": 720.21,
-      "sma50": 710.5,
-      "sma200": 635.59,
-      "sma200_slope_up": true,
-      "above_sma200": true,
-      "above_sma50": true,
-      "golden_cross": true,
-      "dist_sma200_pct": 13.72,
-      "rsi14": 50.4
-    },
     "SPY": {
       "price": 751.28,
       "change_pct": 0.87,
@@ -223,8 +210,8 @@
       "rsi14": 46.5
     },
     "DXY": {
-      "price": 100.87,
-      "change_pct": 0.01,
+      "price": 100.84,
+      "change_pct": -0.02,
       "sma20": 100.6,
       "sma50": 99.5,
       "sma200": 98.86,
@@ -232,8 +219,8 @@
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 2.03,
-      "rsi14": 65.5
+      "dist_sma200_pct": 2.0,
+      "rsi14": 65.2
     },
     "GLD": {
       "price": 382.13,
@@ -254,22 +241,19 @@
     "VIX_in_backwardation": false,
     "HYG_IEF": 0.8481,
     "JNK_TLT": 1.1252,
-    "QQQ_QQEW": 4.5281,
     "MAGS_RSP": 0.3083
   },
   "scoring": {
-    "total_score": 7,
-    "regime": "极度看多",
-    "position_suggestion": "QQQ 70% + TQQQ 30%",
-    "color": "success",
+    "total_score": 2,
+    "regime": "偏多观察",
+    "position_suggestion": "QQQ 60% + 现金 40%",
+    "color": "info",
     "layers": {
       "layer1_price": {
-        "score": 4,
+        "score": 0,
         "name": "价格-动量",
         "details": [
-          "✅ QQQ 在 200SMA 上方且向上 (+2)",
-          "✅ 50SMA > 200SMA 金叉态 (+1)",
-          "✅ RSI 50.4 健康看多 (+1)"
+          "QQQ 数据缺失"
         ],
         "max": 4
       },
@@ -284,12 +268,10 @@
         "max": 5
       },
       "layer3_structure": {
-        "score": 2,
+        "score": 1,
         "name": "内部结构",
         "details": [
-          "💡 QQQ/QQEW = 4.528",
-          "✅ SPY+RSP 均在 200SMA 上方 (+1)",
-          "✅ Nasdaq 内部宽度健康 (+1)"
+          "✅ SPY+RSP 均在 200SMA 上方 (+1)"
         ],
         "max": 3
       },
