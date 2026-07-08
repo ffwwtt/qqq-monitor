@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-08T21:31:18.983630+00:00",
+  "timestamp": "2026-07-08T22:01:40.117376+00:00",
   "data": {
     "QQQ": {
       "price": 711.44,
@@ -223,8 +223,8 @@
       "rsi14": 39.3
     },
     "DXY": {
-      "price": 101.04,
-      "change_pct": -0.1,
+      "price": 101.05,
+      "change_pct": -0.09,
       "sma20": 100.7,
       "sma50": 99.6,
       "sma200": 98.9,
@@ -232,8 +232,8 @@
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 2.16,
-      "rsi14": 69.8
+      "dist_sma200_pct": 2.17,
+      "rsi14": 70.1
     },
     "GLD": {
       "price": 374.45,
