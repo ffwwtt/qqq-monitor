@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-13T20:34:32.029941+00:00",
+  "timestamp": "2026-07-13T21:35:50.584501+00:00",
   "data": {
     "QQQ": {
       "price": 711.74,
@@ -106,30 +106,30 @@
       "rsi14": 54.3
     },
     "MOVE": {
-      "price": 69.55,
-      "change_pct": -0.0,
-      "sma20": 68.71,
-      "sma50": 72.09,
-      "sma200": 72.19,
+      "price": 77.77,
+      "change_pct": 11.83,
+      "sma20": 69.13,
+      "sma50": 72.26,
+      "sma200": 72.23,
       "sma200_slope_up": false,
-      "above_sma200": false,
-      "above_sma50": false,
-      "golden_cross": false,
-      "dist_sma200_pct": -3.66,
-      "rsi14": 49.1
+      "above_sma200": true,
+      "above_sma50": true,
+      "golden_cross": true,
+      "dist_sma200_pct": 7.68,
+      "rsi14": 61.1
     },
     "SKEW": {
-      "price": 144.27,
-      "change_pct": -0.28,
-      "sma20": 145.01,
-      "sma50": 142.24,
-      "sma200": 145.02,
+      "price": 145.69,
+      "change_pct": 0.98,
+      "sma20": 145.15,
+      "sma50": 142.32,
+      "sma200": 145.01,
       "sma200_slope_up": false,
-      "above_sma200": false,
+      "above_sma200": true,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -0.52,
-      "rsi14": 47.5
+      "dist_sma200_pct": 0.47,
+      "rsi14": 54.2
     },
     "MAGS": {
       "price": 66.99,
@@ -223,17 +223,17 @@
       "rsi14": 44.5
     },
     "DXY": {
-      "price": 101.32,
-      "change_pct": 0.35,
-      "sma20": 100.88,
+      "price": 101.28,
+      "change_pct": 0.31,
+      "sma20": 100.87,
       "sma50": 99.74,
       "sma200": 98.96,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 2.39,
-      "rsi14": 55.5
+      "dist_sma200_pct": 2.35,
+      "rsi14": 54.8
     },
     "GLD": {
       "price": 367.13,
@@ -278,7 +278,7 @@
         "details": [
           "✅ VIX 17.2 正常 (+1)",
           "✅ VIX/VIX3M 0.874 contango (+1)",
-          "✅ MOVE 70 平静 (+1)"
+          "✅ MOVE 78 平静 (+1)"
         ],
         "max": 5
       },
