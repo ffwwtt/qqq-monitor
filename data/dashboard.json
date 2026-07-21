@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T21:57:04.562058+00:00",
+  "timestamp": "2026-07-21T13:26:21.931308+00:00",
   "data": {
     "QQQ": {
       "price": 696.06,
@@ -50,47 +50,47 @@
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 8.44,
+      "dist_sma200_pct": 8.45,
       "rsi14": 38.6
     },
     "VIX": {
-      "price": 18.65,
-      "change_pct": -0.64,
-      "sma20": 17.12,
-      "sma50": 17.35,
-      "sma200": 18.7,
+      "price": 17.85,
+      "change_pct": -4.29,
+      "sma20": 17.15,
+      "sma50": 17.37,
+      "sma200": 18.71,
       "sma200_slope_up": true,
       "above_sma200": false,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -0.28,
-      "rsi14": 54.0
+      "dist_sma200_pct": -4.59,
+      "rsi14": 55.8
     },
     "VIX3M": {
-      "price": 20.4,
-      "change_pct": -0.68,
-      "sma20": 19.57,
-      "sma50": 20.07,
-      "sma200": 20.96,
+      "price": 20.54,
+      "change_pct": 5.33,
+      "sma20": 19.53,
+      "sma50": 20.08,
+      "sma200": 20.95,
       "sma200_slope_up": true,
       "above_sma200": false,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -2.68,
-      "rsi14": 57.0
+      "dist_sma200_pct": -1.98,
+      "rsi14": 53.1
     },
     "VIX9D": {
-      "price": 17.78,
-      "change_pct": 5.52,
-      "sma20": 14.82,
-      "sma50": 15.65,
-      "sma200": 17.16,
+      "price": 16.85,
+      "change_pct": 20.53,
+      "sma20": 14.63,
+      "sma50": 15.59,
+      "sma200": 17.14,
       "sma200_slope_up": true,
-      "above_sma200": true,
+      "above_sma200": false,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": 3.64,
-      "rsi14": 55.3
+      "dist_sma200_pct": -1.67,
+      "rsi14": 50.1
     },
     "VVIX": {
       "price": 102.82,
@@ -106,17 +106,17 @@
       "rsi14": 67.3
     },
     "MOVE": {
-      "price": 72.66,
-      "change_pct": 2.51,
-      "sma20": 69.78,
-      "sma50": 72.01,
-      "sma200": 72.12,
+      "price": 70.88,
+      "change_pct": 3.99,
+      "sma20": 69.42,
+      "sma50": 71.97,
+      "sma200": 72.13,
       "sma200_slope_up": false,
-      "above_sma200": true,
-      "above_sma50": true,
+      "above_sma200": false,
+      "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": 0.74,
-      "rsi14": 55.1
+      "dist_sma200_pct": -1.74,
+      "rsi14": 54.7
     },
     "SKEW": {
       "price": 146.05,
@@ -219,21 +219,21 @@
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -0.77,
-      "rsi14": 39.8
+      "dist_sma200_pct": -0.76,
+      "rsi14": 40.0
     },
     "DXY": {
-      "price": 100.99,
-      "change_pct": 0.24,
+      "price": 101.03,
+      "change_pct": 0.04,
       "sma20": 101.08,
-      "sma50": 99.99,
-      "sma200": 99.03,
+      "sma50": 100.05,
+      "sma200": 99.04,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 1.99,
-      "rsi14": 48.0
+      "dist_sma200_pct": 2.0,
+      "rsi14": 47.2
     },
     "GLD": {
       "price": 367.6,
@@ -250,7 +250,7 @@
     }
   },
   "ratios": {
-    "VIX_VIX3M": 0.914,
+    "VIX_VIX3M": 0.869,
     "VIX_in_backwardation": false,
     "HYG_IEF": 0.8518,
     "JNK_TLT": 1.1438,
@@ -276,9 +276,9 @@
         "score": 3,
         "name": "波动率-情绪",
         "details": [
-          "✅ VIX 18.6 正常 (+1)",
-          "✅ VIX/VIX3M 0.914 contango (+1)",
-          "✅ MOVE 73 平静 (+1)"
+          "✅ VIX 17.9 正常 (+1)",
+          "✅ VIX/VIX3M 0.869 contango (+1)",
+          "✅ MOVE 71 平静 (+1)"
         ],
         "max": 5
       },
@@ -1028,12 +1028,6 @@
     ],
     "VIX": [
       {
-        "date": "2026-02-03",
-        "close": 18.0,
-        "sma50": null,
-        "sma200": null
-      },
-      {
         "date": "2026-02-04",
         "close": 18.64,
         "sma50": null,
@@ -1324,7 +1318,7 @@
       {
         "date": "2026-04-15",
         "close": 18.17,
-        "sma50": 22.52,
+        "sma50": null,
         "sma200": null
       },
       {
@@ -1721,6 +1715,12 @@
         "date": "2026-07-20",
         "close": 18.65,
         "sma50": 17.35,
+        "sma200": null
+      },
+      {
+        "date": "2026-07-21",
+        "close": 17.85,
+        "sma50": 17.37,
         "sma200": null
       }
     ]
