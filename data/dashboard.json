@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T00:59:57.353603+00:00",
+  "timestamp": "2026-08-07T12:50:48.212413+00:00",
   "data": {
     "QQQ": {
       "price": 714.65,
@@ -54,43 +54,43 @@
       "rsi14": 62.5
     },
     "VIX": {
-      "price": 15.15,
-      "change_pct": -4.17,
+      "price": 15.1,
+      "change_pct": -0.33,
       "sma20": 17.17,
-      "sma50": 17.3,
-      "sma200": 18.6,
+      "sma50": 17.28,
+      "sma200": 18.58,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -18.53,
-      "rsi14": 37.2
+      "dist_sma200_pct": -18.74,
+      "rsi14": 37.3
     },
     "VIX3M": {
-      "price": 18.69,
-      "change_pct": -9.01,
-      "sma20": 19.49,
-      "sma50": 20.04,
+      "price": 20.54,
+      "change_pct": 5.33,
+      "sma20": 19.53,
+      "sma50": 20.08,
       "sma200": 20.95,
       "sma200_slope_up": true,
       "above_sma200": false,
-      "above_sma50": false,
+      "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -10.81,
-      "rsi14": 44.7
+      "dist_sma200_pct": -1.98,
+      "rsi14": 53.1
     },
     "VIX9D": {
-      "price": 12.66,
-      "change_pct": -24.87,
-      "sma20": 14.56,
-      "sma50": 15.55,
-      "sma200": 17.13,
+      "price": 16.85,
+      "change_pct": 20.53,
+      "sma20": 14.63,
+      "sma50": 15.59,
+      "sma200": 17.14,
       "sma200_slope_up": true,
       "above_sma200": false,
-      "above_sma50": false,
+      "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -26.1,
-      "rsi14": 44.2
+      "dist_sma200_pct": -1.67,
+      "rsi14": 50.1
     },
     "VVIX": {
       "price": 88.72,
@@ -106,17 +106,17 @@
       "rsi14": 35.4
     },
     "MOVE": {
-      "price": 76.12,
-      "change_pct": 7.39,
-      "sma20": 69.96,
-      "sma50": 72.08,
-      "sma200": 72.14,
+      "price": 70.88,
+      "change_pct": 3.99,
+      "sma20": 69.42,
+      "sma50": 71.97,
+      "sma200": 72.13,
       "sma200_slope_up": false,
-      "above_sma200": true,
-      "above_sma50": true,
+      "above_sma200": false,
+      "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": 5.51,
-      "rsi14": 58.4
+      "dist_sma200_pct": -1.74,
+      "rsi14": 54.7
     },
     "SKEW": {
       "price": 134.73,
@@ -223,17 +223,17 @@
       "rsi14": 39.8
     },
     "DXY": {
-      "price": 99.98,
-      "change_pct": 0.29,
-      "sma20": 100.72,
+      "price": 99.45,
+      "change_pct": -0.52,
+      "sma20": 100.64,
       "sma50": 100.48,
-      "sma200": 99.16,
+      "sma200": 99.17,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": false,
       "golden_cross": true,
-      "dist_sma200_pct": 0.82,
-      "rsi14": 38.2
+      "dist_sma200_pct": 0.28,
+      "rsi14": 28.2
     },
     "GLD": {
       "price": 389.67,
@@ -250,7 +250,7 @@
     }
   },
   "ratios": {
-    "VIX_VIX3M": 0.811,
+    "VIX_VIX3M": 0.735,
     "VIX_in_backwardation": false,
     "HYG_IEF": 0.8549,
     "JNK_TLT": 1.1586,
@@ -277,9 +277,9 @@
         "score": 3,
         "name": "波动率-情绪",
         "details": [
-          "✅ VIX 15.2 正常 (+1)",
-          "✅ VIX/VIX3M 0.811 contango (+1)",
-          "✅ MOVE 76 平静 (+1)"
+          "✅ VIX 15.1 正常 (+1)",
+          "✅ VIX/VIX3M 0.735 contango (+1)",
+          "✅ MOVE 71 平静 (+1)"
         ],
         "max": 5
       },
@@ -1029,12 +1029,6 @@
     ],
     "VIX": [
       {
-        "date": "2026-02-20",
-        "close": 19.09,
-        "sma50": null,
-        "sma200": null
-      },
-      {
         "date": "2026-02-23",
         "close": 21.01,
         "sma50": null,
@@ -1325,7 +1319,7 @@
       {
         "date": "2026-05-01",
         "close": 16.99,
-        "sma50": 22.24,
+        "sma50": null,
         "sma200": null
       },
       {
@@ -1728,6 +1722,12 @@
         "date": "2026-08-06",
         "close": 15.15,
         "sma50": 17.3,
+        "sma200": null
+      },
+      {
+        "date": "2026-08-07",
+        "close": 15.1,
+        "sma50": 17.28,
         "sma200": null
       }
     ]
