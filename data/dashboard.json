@@ -1,57 +1,57 @@
 {
-  "timestamp": "2026-08-17T13:39:07.326296+00:00",
+  "timestamp": "2026-08-17T14:05:02.302933+00:00",
   "data": {
     "QQQ": {
-      "price": 732.11,
-      "change_pct": 0.14,
-      "sma20": 705.93,
-      "sma50": 712.78,
+      "price": 732.67,
+      "change_pct": 0.22,
+      "sma20": 705.96,
+      "sma50": 712.79,
       "sma200": 651.12,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 12.44,
-      "rsi14": 74.9
+      "dist_sma200_pct": 12.52,
+      "rsi14": 75.0
     },
     "SPY": {
-      "price": 775.66,
-      "change_pct": -0.09,
-      "sma20": 757.88,
-      "sma50": 749.3,
+      "price": 775.42,
+      "change_pct": -0.12,
+      "sma20": 757.86,
+      "sma50": 749.29,
       "sma200": 705.9,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 9.88,
-      "rsi14": 73.8
+      "dist_sma200_pct": 9.85,
+      "rsi14": 73.6
     },
     "RSP": {
-      "price": 222.02,
-      "change_pct": -0.34,
-      "sma20": 217.76,
+      "price": 221.82,
+      "change_pct": -0.43,
+      "sma20": 217.75,
       "sma50": 214.16,
       "sma200": 201.33,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 10.27,
-      "rsi14": 64.9
+      "dist_sma200_pct": 10.18,
+      "rsi14": 64.1
     },
     "QQEW": {
-      "price": 166.57,
-      "change_pct": 0.16,
-      "sma20": 158.5,
-      "sma50": 156.82,
+      "price": 165.81,
+      "change_pct": -0.29,
+      "sma20": 158.47,
+      "sma50": 156.8,
       "sma200": 143.58,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 16.01,
-      "rsi14": 79.2
+      "dist_sma200_pct": 15.48,
+      "rsi14": 77.3
     },
     "VIX": {
       "price": 15.03,
@@ -67,43 +67,43 @@
       "rsi14": 37.0
     },
     "VIX3M": {
-      "price": 20.54,
-      "change_pct": 5.33,
-      "sma20": 19.53,
-      "sma50": 20.08,
+      "price": 18.84,
+      "change_pct": -8.28,
+      "sma20": 19.5,
+      "sma50": 20.04,
       "sma200": 20.95,
       "sma200_slope_up": true,
       "above_sma200": false,
-      "above_sma50": true,
+      "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -1.98,
-      "rsi14": 53.1
+      "dist_sma200_pct": -10.09,
+      "rsi14": 45.6
     },
     "VIX9D": {
-      "price": 16.85,
-      "change_pct": 20.53,
-      "sma20": 14.63,
-      "sma50": 15.59,
-      "sma200": 17.14,
+      "price": 12.21,
+      "change_pct": -27.54,
+      "sma20": 14.54,
+      "sma50": 15.54,
+      "sma200": 17.13,
       "sma200_slope_up": true,
       "above_sma200": false,
-      "above_sma50": true,
+      "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -1.67,
-      "rsi14": 50.1
+      "dist_sma200_pct": -28.71,
+      "rsi14": 43.4
     },
     "VVIX": {
-      "price": 87.48,
-      "change_pct": -2.17,
-      "sma20": 95.43,
-      "sma50": 93.52,
-      "sma200": 100.65,
+      "price": 92.19,
+      "change_pct": 5.38,
+      "sma20": 94.79,
+      "sma50": 93.57,
+      "sma200": 100.62,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -13.08,
-      "rsi14": 36.3
+      "dist_sma200_pct": -8.38,
+      "rsi14": 41.8
     },
     "MOVE": {
       "price": 70.88,
@@ -132,17 +132,17 @@
       "rsi14": 41.3
     },
     "MAGS": {
-      "price": 67.96,
-      "change_pct": -0.43,
-      "sma20": 66.6,
+      "price": 67.78,
+      "change_pct": -0.7,
+      "sma20": 66.59,
       "sma50": 65.94,
       "sma200": 65.21,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 4.23,
-      "rsi14": 70.1
+      "dist_sma200_pct": 3.95,
+      "rsi14": 68.9
     },
     "HYG": {
       "price": 79.68,
@@ -154,11 +154,11 @@
       "above_sma200": false,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -0.62,
-      "rsi14": 58.0
+      "dist_sma200_pct": -0.63,
+      "rsi14": 57.8
     },
     "JNK": {
-      "price": 95.92,
+      "price": 95.91,
       "change_pct": -0.06,
       "sma20": 95.68,
       "sma50": 95.93,
@@ -168,11 +168,11 @@
       "above_sma50": false,
       "golden_cross": false,
       "dist_sma200_pct": -0.68,
-      "rsi14": 57.4
+      "rsi14": 57.3
     },
     "TLT": {
-      "price": 81.72,
-      "change_pct": -0.38,
+      "price": 81.79,
+      "change_pct": -0.31,
       "sma20": 82.77,
       "sma50": 84.39,
       "sma200": 86.76,
@@ -180,12 +180,12 @@
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -5.8,
-      "rsi14": 28.4
+      "dist_sma200_pct": -5.73,
+      "rsi14": 28.7
     },
     "IEF": {
-      "price": 92.94,
-      "change_pct": -0.11,
+      "price": 92.99,
+      "change_pct": -0.06,
       "sma20": 93.09,
       "sma50": 93.66,
       "sma200": 95.34,
@@ -193,12 +193,12 @@
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -2.52,
-      "rsi14": 40.3
+      "dist_sma200_pct": -2.47,
+      "rsi14": 40.9
     },
     "LQD": {
-      "price": 105.94,
-      "change_pct": -0.17,
+      "price": 105.97,
+      "change_pct": -0.14,
       "sma20": 106.37,
       "sma50": 107.59,
       "sma200": 109.42,
@@ -206,12 +206,12 @@
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -3.18,
-      "rsi14": 39.2
+      "dist_sma200_pct": -3.16,
+      "rsi14": 39.5
     },
     "SHY": {
-      "price": 82.01,
-      "change_pct": 0.02,
+      "price": 82.03,
+      "change_pct": 0.03,
       "sma20": 81.91,
       "sma50": 81.95,
       "sma200": 82.48,
@@ -219,12 +219,12 @@
       "above_sma200": false,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -0.57,
-      "rsi14": 54.0
+      "dist_sma200_pct": -0.55,
+      "rsi14": 54.5
     },
     "DXY": {
-      "price": 99.44,
-      "change_pct": -0.23,
+      "price": 99.45,
+      "change_pct": -0.22,
       "sma20": 100.33,
       "sma50": 100.56,
       "sma200": 99.19,
@@ -232,30 +232,30 @@
       "above_sma200": true,
       "above_sma50": false,
       "golden_cross": true,
-      "dist_sma200_pct": 0.24,
-      "rsi14": 23.3
+      "dist_sma200_pct": 0.26,
+      "rsi14": 23.4
     },
     "GLD": {
-      "price": 402.85,
-      "change_pct": 0.34,
-      "sma20": 384.82,
-      "sma50": 381.13,
-      "sma200": 412.54,
+      "price": 404.33,
+      "change_pct": 0.71,
+      "sma20": 384.9,
+      "sma50": 381.16,
+      "sma200": 412.55,
       "sma200_slope_up": true,
       "above_sma200": false,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -2.35,
-      "rsi14": 78.0
+      "dist_sma200_pct": -1.99,
+      "rsi14": 78.5
     }
   },
   "ratios": {
-    "VIX_VIX3M": 0.732,
+    "VIX_VIX3M": 0.798,
     "VIX_in_backwardation": false,
-    "HYG_IEF": 0.8573,
-    "JNK_TLT": 1.1738,
-    "QQQ_QQEW": 4.3952,
-    "MAGS_RSP": 0.3061
+    "HYG_IEF": 0.8569,
+    "JNK_TLT": 1.1726,
+    "QQQ_QQEW": 4.4187,
+    "MAGS_RSP": 0.3056
   },
   "scoring": {
     "total_score": 8,
@@ -277,7 +277,7 @@
         "name": "波动率-情绪",
         "details": [
           "✅ VIX 15.0 正常 (+1)",
-          "✅ VIX/VIX3M 0.732 contango (+1)",
+          "✅ VIX/VIX3M 0.798 contango (+1)",
           "✅ MOVE 71 平静 (+1)"
         ],
         "max": 5
@@ -286,7 +286,7 @@
         "score": 2,
         "name": "内部结构",
         "details": [
-          "💡 QQQ/QQEW = 4.395",
+          "💡 QQQ/QQEW = 4.419",
           "✅ SPY+RSP 均在 200SMA 上方 (+1)",
           "✅ Nasdaq 内部宽度健康 (+1)"
         ],
@@ -1021,8 +1021,8 @@
       },
       {
         "date": "2026-08-17",
-        "close": 732.13,
-        "sma50": 712.62,
+        "close": 732.75,
+        "sma50": 712.63,
         "sma200": null
       }
     ],
