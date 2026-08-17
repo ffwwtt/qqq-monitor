@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T21:06:43.268167+00:00",
+  "timestamp": "2026-08-17T21:19:54.813942+00:00",
   "data": {
     "QQQ": {
       "price": 729.87,
@@ -119,17 +119,17 @@
       "rsi14": 58.0
     },
     "SKEW": {
-      "price": 138.36,
-      "change_pct": 2.97,
-      "sma20": 140.02,
-      "sma50": 143.15,
-      "sma200": 144.39,
+      "price": 142.91,
+      "change_pct": 3.29,
+      "sma20": 139.86,
+      "sma50": 143.16,
+      "sma200": 144.41,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -4.18,
-      "rsi14": 41.3
+      "dist_sma200_pct": -1.04,
+      "rsi14": 49.9
     },
     "MAGS": {
       "price": 67.35,
@@ -232,7 +232,7 @@
       "above_sma200": true,
       "above_sma50": false,
       "golden_cross": true,
-      "dist_sma200_pct": 0.4,
+      "dist_sma200_pct": 0.39,
       "rsi14": 24.3
     },
     "GLD": {
