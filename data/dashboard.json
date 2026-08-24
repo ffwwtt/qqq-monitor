@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-21T22:26:28.286006+00:00",
+  "timestamp": "2026-08-24T12:37:16.714910+00:00",
   "data": {
     "QQQ": {
       "price": 713.44,
@@ -54,17 +54,17 @@
       "rsi14": 66.3
     },
     "VIX": {
-      "price": 15.13,
-      "change_pct": -5.5,
-      "sma20": 16.0,
-      "sma50": 16.76,
-      "sma200": 18.48,
+      "price": 15.9,
+      "change_pct": 5.09,
+      "sma20": 15.86,
+      "sma50": 16.69,
+      "sma200": 18.47,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
-      "dist_sma200_pct": -18.12,
-      "rsi14": 45.8
+      "dist_sma200_pct": -13.9,
+      "rsi14": 46.6
     },
     "VVIX": {
       "price": 86.27,
@@ -89,7 +89,7 @@
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": 1.48,
+      "dist_sma200_pct": 1.49,
       "rsi14": 41.4
     },
     "SKEW": {
@@ -197,17 +197,17 @@
       "rsi14": 65.8
     },
     "DXY": {
-      "price": 98.84,
-      "change_pct": -0.06,
-      "sma20": 99.89,
-      "sma50": 100.48,
+      "price": 98.92,
+      "change_pct": 0.12,
+      "sma20": 99.76,
+      "sma50": 100.46,
       "sma200": 99.18,
       "sma200_slope_up": true,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": true,
-      "dist_sma200_pct": -0.35,
-      "rsi14": 28.9
+      "dist_sma200_pct": -0.26,
+      "rsi14": 32.4
     },
     "GLD": {
       "price": 423.36,
@@ -249,7 +249,7 @@
         "score": 2,
         "name": "波动率-情绪",
         "details": [
-          "✅ VIX 15.1 正常 (+1)",
+          "✅ VIX 15.9 正常 (+1)",
           "✅ MOVE 73 平静 (+1)"
         ],
         "max": 5
@@ -1000,12 +1000,6 @@
     ],
     "VIX": [
       {
-        "date": "2026-03-09",
-        "close": 25.5,
-        "sma50": null,
-        "sma200": null
-      },
-      {
         "date": "2026-03-10",
         "close": 24.93,
         "sma50": null,
@@ -1296,7 +1290,7 @@
       {
         "date": "2026-05-18",
         "close": 17.82,
-        "sma50": 21.44,
+        "sma50": null,
         "sma200": null
       },
       {
@@ -1699,6 +1693,12 @@
         "date": "2026-08-21",
         "close": 15.13,
         "sma50": 16.76,
+        "sma200": null
+      },
+      {
+        "date": "2026-08-24",
+        "close": 15.9,
+        "sma50": 16.69,
         "sma200": null
       }
     ]
