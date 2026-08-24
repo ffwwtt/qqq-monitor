@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-24T20:48:14.328258+00:00",
+  "timestamp": "2026-08-24T21:22:54.778936+00:00",
   "data": {
     "QQQ": {
       "price": 706.32,
@@ -66,6 +66,32 @@
       "dist_sma200_pct": -14.17,
       "rsi14": 46.3
     },
+    "VIX3M": {
+      "price": 18.56,
+      "change_pct": -9.64,
+      "sma20": 19.48,
+      "sma50": 20.04,
+      "sma200": 20.95,
+      "sma200_slope_up": true,
+      "above_sma200": false,
+      "above_sma50": false,
+      "golden_cross": false,
+      "dist_sma200_pct": -11.42,
+      "rsi14": 44.0
+    },
+    "VIX9D": {
+      "price": 14.07,
+      "change_pct": -16.5,
+      "sma20": 14.63,
+      "sma50": 15.58,
+      "sma200": 17.14,
+      "sma200_slope_up": true,
+      "above_sma200": false,
+      "above_sma50": false,
+      "golden_cross": false,
+      "dist_sma200_pct": -17.9,
+      "rsi14": 46.9
+    },
     "VVIX": {
       "price": 88.64,
       "change_pct": 2.75,
@@ -93,17 +119,17 @@
       "rsi14": 45.4
     },
     "SKEW": {
-      "price": 143.9,
-      "change_pct": 0.47,
-      "sma20": 138.79,
-      "sma50": 142.99,
-      "sma200": 144.45,
+      "price": 145.64,
+      "change_pct": 1.21,
+      "sma20": 138.74,
+      "sma50": 143.04,
+      "sma200": 144.46,
       "sma200_slope_up": false,
-      "above_sma200": false,
+      "above_sma200": true,
       "above_sma50": true,
       "golden_cross": false,
-      "dist_sma200_pct": -0.38,
-      "rsi14": 54.5
+      "dist_sma200_pct": 0.82,
+      "rsi14": 79.8
     },
     "MAGS": {
       "price": 67.2,
@@ -207,7 +233,7 @@
       "above_sma50": false,
       "golden_cross": true,
       "dist_sma200_pct": -0.18,
-      "rsi14": 34.3
+      "rsi14": 34.2
     },
     "GLD": {
       "price": 426.69,
@@ -224,13 +250,15 @@
     }
   },
   "ratios": {
+    "VIX_VIX3M": 0.854,
+    "VIX_in_backwardation": false,
     "HYG_IEF": 0.8569,
     "JNK_TLT": 1.1622,
     "QQQ_QQEW": 4.3309,
     "MAGS_RSP": 0.3028
   },
   "scoring": {
-    "total_score": 7,
+    "total_score": 8,
     "regime": "极度看多",
     "position_suggestion": "QQQ 70% + TQQQ 30%",
     "color": "success",
@@ -245,10 +273,11 @@
         "max": 4
       },
       "layer2_volatility": {
-        "score": 2,
+        "score": 3,
         "name": "波动率-情绪",
         "details": [
           "✅ VIX 15.8 正常 (+1)",
+          "✅ VIX/VIX3M 0.854 contango (+1)",
           "✅ MOVE 74 平静 (+1)"
         ],
         "max": 5
