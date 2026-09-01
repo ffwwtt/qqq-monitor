@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-01T22:28:50.672631+00:00",
+  "timestamp": "2026-09-01T22:56:16.706535+00:00",
   "data": {
     "QQQ": {
       "price": 707.64,
@@ -108,15 +108,15 @@
     "MOVE": {
       "price": 77.88,
       "change_pct": 3.39,
-      "sma20": 73.19,
-      "sma50": 72.86,
-      "sma200": 72.3,
+      "sma20": 73.52,
+      "sma50": 72.84,
+      "sma200": 72.35,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 7.71,
-      "rsi14": 59.9
+      "dist_sma200_pct": 7.64,
+      "rsi14": 49.9
     },
     "SKEW": {
       "price": 149.23,
@@ -135,27 +135,27 @@
       "price": 68.23,
       "change_pct": -0.74,
       "sma20": 68.05,
-      "sma50": 66.45,
-      "sma200": 65.23,
+      "sma50": 66.34,
+      "sma200": 65.22,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 4.6,
-      "rsi14": 53.5
+      "dist_sma200_pct": 4.62,
+      "rsi14": 48.6
     },
     "HYG": {
       "price": 79.1,
       "change_pct": -0.89,
-      "sma20": 79.64,
-      "sma50": 79.63,
-      "sma200": 80.13,
+      "sma20": 79.63,
+      "sma50": 79.64,
+      "sma200": 80.14,
       "sma200_slope_up": false,
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": false,
       "dist_sma200_pct": -1.29,
-      "rsi14": 37.8
+      "rsi14": 40.0
     },
     "JNK": {
       "price": 95.21,
