@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-12T21:35:07.619913+00:00",
+  "timestamp": "2026-10-13T02:22:19.125047+00:00",
   "data": {
     "QQQ": {
       "price": 746.04,
@@ -42,7 +42,7 @@
     },
     "QQEW": {
       "price": 162.06,
-      "change_pct": -1.11,
+      "change_pct": -1.1,
       "sma20": 162.18,
       "sma50": 162.27,
       "sma200": 147.55,
@@ -223,17 +223,17 @@
       "rsi14": 41.4
     },
     "DXY": {
-      "price": 102.58,
-      "change_pct": 0.36,
-      "sma20": 101.3,
-      "sma50": 100.17,
+      "price": 102.46,
+      "change_pct": 0.24,
+      "sma20": 101.29,
+      "sma50": 100.16,
       "sma200": 99.39,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 3.21,
-      "rsi14": 75.8
+      "dist_sma200_pct": 3.08,
+      "rsi14": 75.0
     },
     "GLD": {
       "price": 382.15,
