@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07T00:34:01.428089+00:00",
+  "timestamp": "2026-11-07T01:41:19.303499+00:00",
   "data": {
     "QQQ": {
       "price": 656.1,
@@ -132,17 +132,17 @@
       "rsi14": 37.5
     },
     "MAGS": {
-      "price": 67.53,
-      "change_pct": 1.02,
-      "sma20": 70.82,
-      "sma50": 70.97,
-      "sma200": 66.44,
-      "sma200_slope_up": true,
-      "above_sma200": true,
+      "price": NaN,
+      "change_pct": NaN,
+      "sma20": NaN,
+      "sma50": NaN,
+      "sma200": NaN,
+      "sma200_slope_up": false,
+      "above_sma200": false,
       "above_sma50": false,
-      "golden_cross": true,
-      "dist_sma200_pct": 1.64,
-      "rsi14": 33.1
+      "golden_cross": false,
+      "dist_sma200_pct": 0,
+      "rsi14": NaN
     },
     "HYG": {
       "price": 77.23,
@@ -255,7 +255,7 @@
     "HYG_IEF": 0.8407,
     "JNK_TLT": 1.1316,
     "QQQ_QQEW": 4.6052,
-    "MAGS_RSP": 0.3126
+    "MAGS_RSP": NaN
   },
   "scoring": {
     "total_score": -6,
