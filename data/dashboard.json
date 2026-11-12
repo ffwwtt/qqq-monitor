@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12T01:54:10.020872+00:00",
+  "timestamp": "2026-11-12T02:05:23.040266+00:00",
   "data": {
     "QQQ": {
       "price": NaN,
@@ -223,8 +223,8 @@
       "rsi14": NaN
     },
     "DXY": {
-      "price": 102.85,
-      "change_pct": 0.6,
+      "price": 102.87,
+      "change_pct": 0.63,
       "sma20": 101.94,
       "sma50": 101.25,
       "sma200": 99.78,
@@ -232,8 +232,8 @@
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 3.07,
-      "rsi14": 64.1
+      "dist_sma200_pct": 3.1,
+      "rsi14": 64.3
     },
     "GLD": {
       "price": NaN,
