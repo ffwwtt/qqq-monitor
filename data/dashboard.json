@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T03:22:48.760213+00:00",
+  "timestamp": "2026-11-26T20:49:38.793430+00:00",
   "data": {
     "QQQ": {
       "price": 633.93,
@@ -54,17 +54,17 @@
       "rsi14": 46.4
     },
     "VIX": {
-      "price": 28.29,
-      "change_pct": 7.32,
-      "sma20": 23.12,
-      "sma50": 19.02,
-      "sma200": 18.78,
+      "price": 26.8,
+      "change_pct": -5.27,
+      "sma20": 23.6,
+      "sma50": 19.25,
+      "sma200": 18.82,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 50.61,
-      "rsi14": 50.1
+      "dist_sma200_pct": 42.44,
+      "rsi14": 51.4
     },
     "VIX3M": {
       "price": 26.29,
@@ -223,17 +223,17 @@
       "rsi14": 48.6
     },
     "DXY": {
-      "price": 103.79,
-      "change_pct": -0.02,
-      "sma20": 102.84,
-      "sma50": 102.14,
-      "sma200": 100.11,
+      "price": 103.77,
+      "change_pct": 0.1,
+      "sma20": 102.92,
+      "sma50": 102.2,
+      "sma200": 100.15,
       "sma200_slope_up": true,
       "above_sma200": true,
       "above_sma50": true,
       "golden_cross": true,
-      "dist_sma200_pct": 3.68,
-      "rsi14": 72.9
+      "dist_sma200_pct": 3.62,
+      "rsi14": 66.8
     },
     "GLD": {
       "price": 327.45,
@@ -250,7 +250,7 @@
     }
   },
   "ratios": {
-    "VIX_VIX3M": 1.076,
+    "VIX_VIX3M": 1.019,
     "VIX_in_backwardation": true,
     "HYG_IEF": 0.8312,
     "JNK_TLT": 1.1156,
@@ -276,8 +276,8 @@
         "score": -4,
         "name": "波动率-情绪",
         "details": [
-          "⚠️ VIX 28.3 偏高 (-1)",
-          "❌ VIX/VIX3M 1.076 backwardation (-2)",
+          "⚠️ VIX 26.8 偏高 (-1)",
+          "❌ VIX/VIX3M 1.019 backwardation (-2)",
           "💡 MOVE 98 (0)",
           "⚠️ VVIX 115 高 (-1)"
         ],
@@ -1027,12 +1027,6 @@
     ],
     "VIX": [
       {
-        "date": "2026-06-11",
-        "close": 19.44,
-        "sma50": null,
-        "sma200": null
-      },
-      {
         "date": "2026-06-12",
         "close": 17.68,
         "sma50": null,
@@ -1323,7 +1317,7 @@
       {
         "date": "2026-08-21",
         "close": 15.13,
-        "sma50": 16.76,
+        "sma50": null,
         "sma200": null
       },
       {
@@ -1732,6 +1726,12 @@
         "date": "2026-11-25",
         "close": 28.29,
         "sma50": 19.02,
+        "sma200": null
+      },
+      {
+        "date": "2026-11-26",
+        "close": 26.8,
+        "sma50": 19.25,
         "sma200": null
       }
     ]
