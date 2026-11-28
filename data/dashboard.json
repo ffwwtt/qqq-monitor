@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T21:49:41.104454+00:00",
+  "timestamp": "2026-11-28T03:01:41.003838+00:00",
   "data": {
     "QQQ": {
       "price": 650.99,
@@ -50,7 +50,7 @@
       "above_sma200": false,
       "above_sma50": false,
       "golden_cross": true,
-      "dist_sma200_pct": -4.42,
+      "dist_sma200_pct": -4.41,
       "rsi14": 50.0
     },
     "VIX": {
